@@ -83,4 +83,5 @@ echo "Iniciando Mongodb"
 #Esse passo muitas vezes precisa executar novamente, pois da erro. Fique atento a esta parte abaixo.
 mongo --eval "printjson(rs.initiate())"
 sleep 5
+n 12.18.0
 systemctl start rocketchat.service
